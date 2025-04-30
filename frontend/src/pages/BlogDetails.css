@@ -1,0 +1,52 @@
+.blog-detail-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 100px 500px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-detail-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px; 
+  }
+  
+  .blog-detail-container p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #5ab8dd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .back-link:hover {
+    background-color: #e0e0e0;
+  }
+
+  .edit {
+    background-color: yellow;
+    font-weight: bold;
+    display: inline-block;
+    color: black;
+    border-radius: 3px;
+  }
+  
+  .button {
+    background-color: red;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+  }

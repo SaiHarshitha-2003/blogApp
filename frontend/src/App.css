@@ -1,0 +1,54 @@
+/* App.css or a separate CSS file */
+.blog-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.blog-card h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.blog-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.blog-card a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.blog-card a:hover {
+  text-decoration: underline;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #0056b3;
+}

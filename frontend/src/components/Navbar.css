@@ -1,0 +1,14 @@
+.nav {
+    background-color: rgb(29, 147, 197);
+    padding: 14px 20px;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.item {
+    color: black;
+    font-size: 20px;
+    padding-left: 70px;
+    font-weight: bold;
+}
